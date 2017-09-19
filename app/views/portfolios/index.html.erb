@@ -1,0 +1,8 @@
+<h1>Portfolio Items</h1>
+
+<% @portfolio_items.each do |portfolio_items| %>
+  <P><%= portfolio_items.title %></P>
+  <P><%= portfolio_items.subtitle %></P>
+  <P><%= portfolio_items.body %></P>
+  <P><%= image_tag portfolio_items.thumb_image %></P>
+<% end %>
