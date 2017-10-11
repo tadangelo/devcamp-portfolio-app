@@ -20,5 +20,3 @@ end
 ```javascript
 alert('Hi there')
 ```
-
-test
