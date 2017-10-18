@@ -53,7 +53,6 @@ class BlogsController < ApplicationController
     @blog.destroy
     respond_to do |format|
       format.html { redirect_to blogs_url, notice: 'Post was successfully removed.' }
-      format.json { head :no_content }
     end
   end
 
