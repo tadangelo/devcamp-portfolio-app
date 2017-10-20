@@ -14,13 +14,8 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <div>
-      <div><%= link_to "Homepage", root_path %></div>
-      <div><%= link_to "About me", about_me_path %></div>
-      <div><%= link_to "My Blog", blogs_path %></div>
-      <div><%= link_to "Portfolio", portfolios_path %></div>
-      <div><%= link_to "Contact me", contact_path %></div>
-    </div>
+
+    <%= render "shared/nav" %>
 
     <hr>
 

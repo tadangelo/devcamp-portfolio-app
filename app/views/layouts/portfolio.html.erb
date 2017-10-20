@@ -28,13 +28,7 @@
 
     <hr>
 
-    <div>
-      <div><%= link_to "Homepage", root_path %></div>
-      <div><%= link_to "About me", about_me_path %></div>
-      <div><%= link_to "My Blog", blogs_path %></div>
-      <div><%= link_to "Portfolio", portfolios_path %></div>
-      <div><%= link_to "Contact me", contact_path %></div>
-    </div>
+    <%= render "shared/nav" %>
 
     <% if session[:source]%>
       <p>Thanks for visiting from <%= session[:source] %></p>
