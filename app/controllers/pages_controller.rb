@@ -10,6 +10,6 @@ class PagesController < ApplicationController
   end
  
   def contact
-    @page_title = "I'd love to hear from you"
+    @page_title = "I would love to hear from you"
   end
 end
