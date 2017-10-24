@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DangeloViewTool::Renderer.copyright "Tania D'Angelo", 'All rights reserved' 
+    DangeloViewTool::Renderer.copyright "Tania D'Angelo", 'All rights reserved.' 
   end
 end
 
