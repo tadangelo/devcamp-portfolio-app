@@ -1,8 +1,5 @@
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded justify-content-end">
   <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="name">
-      <h4>Explore</h4>
-    </div>
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -14,12 +11,14 @@
       </div>
       
       <nav class="nav portfolio-nav justify-content-end">
-        <a class="nav-link text-muted" href="/">Home</a>
-        <a class="nav-link text-muted" href="/about-me">About Me</a>
-        <a class="nav-link text-muted" href="/blogs">Blog</a>
-        <a class="nav-link text-muted" href="/portfolios">Portfolio</a>
-        <a class="nav-link text-muted" href="/contact">Contact</a>
-        <a class="nav-link text-muted" href="/register">Register</a> <a class="nav-link text-muted" href="/login">Login</a>
+        <%= link_to "Home", root_path, class: 'nav-link text-muted' %>
+        <%= link_to "About Me", about_me_path, class: 'nav-link' %>
+        <%= link_to "Blog", blogs_path, class: 'nav-link text-muted' %>
+        <%= link_to "Portfolio", portfolios_path, class: 'nav-link' %>
+        <%= link_to "Contact", contact_path, class: 'nav-link text-muted' %>
+      </nav>
+      <nav class="nav portfolio-nav justify-content-end">
+        <p><a class="nav-link" href="login_helper"><%= login_helper %></a></p>
       </nav>
     </div>
 </nav>
