@@ -18,7 +18,17 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
-          <div id="background"></div>
+          <%-#"background" only need background call if using background css for still background-%>
+
+          <%= video_tag(
+              'Harddrive.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'cogwheels.jpg'
+            )
+            %>
 
           <%= render "shared/application_nav" %>
 
