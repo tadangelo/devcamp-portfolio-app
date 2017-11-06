@@ -18,9 +18,13 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
       
-          <%-#"background" <div id="background"></div>only need background call if using background css for still background-%>
+          <div id="background">
+            <% "background" %>
+          </div>
 
-          <%= video_tag(
+          <%#code if wanting to use a video and posterstill%>
+
+          <%#= video_tag(
               'Heaven.mp4',
               id: 'background',
               autoplay: true,
@@ -28,7 +32,7 @@
               muted: true,
               poster: 'Heaven.jpg'
             )
-            %>
+          %>
 
           <%= render "shared/application_nav" %>
 
@@ -37,8 +41,6 @@
           <%= render "shared/application_footer" %>
 
           <%= alerts %>
-
-          <%= source_helper("application") %>
 
         </div>
       </div>
