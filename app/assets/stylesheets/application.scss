@@ -222,3 +222,17 @@ body {
   padding: 30 px;
   background-color: #E6E6FA;
 }
+
+.app-card-container {
+  color: black;
+  text-align: center;
+}
+
+.app-card-container > .card {
+  background-color: #E6E6FA;
+  padding: 40px;
+}
+
+.app-card-container a {
+  color: gray;
+}
