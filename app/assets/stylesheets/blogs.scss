@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #555;
+  color: dimgray;
 }
 
 h1, .h1,
@@ -25,7 +25,7 @@ h5, .h5,
 h6, .h6 {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
-  color: #333;
+  color: #5d86bb;
 }
 
 
@@ -42,44 +42,29 @@ h6, .h6 {
  * Masthead for nav
  */
 
-.blog-masthead {
-  margin-bottom: 3rem;
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
-          box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
-}
+ ol.list-unstyled.social-links {
+  display: flex;
+  justify-content: space-between;
+  text-align: flex-end;
+ }
 
 /* Nav links */
 .nav-link {
   position: relative;
-  padding: 1rem;
   font-weight: 500;
   color: #cdddeb;
+  background-color: dimgray;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #fff;
   background-color: transparent;
 }
 
-/* Active state gets a caret at the bottom */
-.nav-link.active {
-  color: #fff;
+.bg-company-color {
+  background-color: dimgray;
 }
-.nav-link.active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -.3rem;
-  vertical-align: middle;
-  content: "";
-  border-right: .3rem solid transparent;
-  border-bottom: .3rem solid;
-  border-left: .3rem solid transparent;
-}
-
 
 /*
  * Blog name and description
@@ -94,10 +79,11 @@ h6, .h6 {
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: normal;
+  color: dimgray;
 }
 .blog-description {
   font-size: 1.1rem;
-  color: #999;
+  color: #5d86bb;
 }
 
 @media (min-width: 40em) {
@@ -115,6 +101,7 @@ h6, .h6 {
 .sidebar-module {
   padding: 1rem;
   /*margin: 0 -1rem 1rem;*/
+  color: dimgray;
 }
 .sidebar-module-inset {
   padding: 1rem;
@@ -143,14 +130,16 @@ h6, .h6 {
 
 .blog-post {
   margin-bottom: 4rem;
+  color: #5d86bb;
 }
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
+  color: dimgray;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
-  color: #999;
+  color: #5d86bb;
 }
 
 
@@ -161,11 +150,10 @@ h6, .h6 {
 .blog-footer {
   margin-top: 20px;
   padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  color: dimgray;
+  text-align: flex-start;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }

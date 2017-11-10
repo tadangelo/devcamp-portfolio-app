@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #555;
+  color: gray;
 }
 
 h1, .h1,
@@ -22,7 +22,7 @@ h5, .h5,
 h6, .h6 {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
-  color: #333;
+  color: #5d86bb;
 }
 
 
@@ -71,8 +71,13 @@ h6, .h6 {
   border-left: .3rem solid transparent;
 }
 
+.jumbotron-heading {
+  color: #5d86bb;
+  font-weight: 300;
+}
+
 .bg-company-gray {
-    background-color: gray;
+    background-color: dimgray;
 }
 
 .album {
@@ -118,6 +123,15 @@ footer p {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-    background-color: #94afd1 !important;
-    border-color: #94afd1 !important;
+    background-color: #5d86bb !important;
+    border-color: #5d86bb !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+    background-color: dimgray !important;
+    border-color: dimgray !important;
 }
