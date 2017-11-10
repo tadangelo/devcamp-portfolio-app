@@ -17,10 +17,10 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #6CA4C8;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: white;
+  border: .05rem solid #6CA4C8;
 }
 
 
@@ -35,7 +35,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 body {
-  color: #fff;
+  color: white;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -179,22 +179,31 @@ h6, .h6 {
  */
 
 .card-block {
-  color: black;
+  color: white;
   text-align: left;
 }
 
 .auth-links a {
-  color: black;
+  color: #6CA4C8;
 }
 
 .register-text {
   text-align: right;
+
+}
+
+.register > .card {
+  background-color: transparent;
+  border: .05rem solid #6CA4C8;
 }
 
 .login > .card {
   width: 22rem;
   margin: 0 auto;
   float: none;
+  background-color: transparent;
+  border: .05rem solid #6CA4C8;
+
 }
 
 .app-nav span{
@@ -213,7 +222,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('cogwheels.jpg') no-repeat;
+  background: image-url('sunset.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -222,31 +231,37 @@ h6, .h6 {
 }
 
 .tech-news {
-  color: black;
+  color: white;
   margin: 20px;
+  border: .05rem solid #6CA4C8;
 }
 
 .tech-news a {
-  color: gray;
+  color: #6CA4C8;
 }
 
 .tech-news > .card {
   padding: 30 px;
-  background-color: #E6E6FA;
+  background-color: transparent;
 }
 
 .app-card-container {
-  color: black;
+  color: white;
   text-align: center;
+  border: .05rem solid #6CA4C8;
+}
+
+hr {
+  border-color: #6CA4C8;
 }
 
 .app-card-container > .card {
-  background-color: #E6E6FA;
+  background-color: transparent;
   padding: 40px;
 }
 
 .app-card-container a {
-  color: gray;
+  color: #6CA4C8;
 }
 
 .card-block {
@@ -255,6 +270,6 @@ h6, .h6 {
 }
 
 .skill {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
